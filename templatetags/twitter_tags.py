@@ -3,7 +3,7 @@
 
 from django import template
 
-from twitter import twitter
+import twitter
 
 register = template.Library()
 class TwitterLattestMsgNode(template.Node):
