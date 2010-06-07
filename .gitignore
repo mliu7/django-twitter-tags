@@ -1,0 +1,5 @@
+# Ignore all generated .pyc files
+*.pyc
+
+# Ignore swap files
+*.swp
