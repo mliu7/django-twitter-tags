@@ -24,6 +24,7 @@ Sample Usage
 ============
 
 The tag takes three arguments which are ``user``, ``number_of_tweets``, and ``alias``. Usage is straight forward and is best explained using an example::
+
     {% load twitter_tags %}
     {% get_twitter_messages user MarkWLiu limit 5 as tweets %}
     <ul>
